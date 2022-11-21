@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'gaiagate.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databasesobj
 
 DATABASES = {
-    'default': dj_database_url.config(default='postgresql://postgres:QDijabc9@localhost:5432/gaiagatemain')
+    'default': dj_database_url.config(default='postgres://gaiagatedb_user:38vfFRFdeTHn4NnV9EJGOZXO2ODum4zv@dpg-cdturuhgp3jo9llmqi60-a.oregon-postgres.render.com/gaiagatedb')
 
     }
 
